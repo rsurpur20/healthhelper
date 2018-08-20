@@ -2,7 +2,7 @@
 /* http://learnlayout.com/ */
 
 html {
-  background-color: #E4B1CA;
+  background-color: #D9E5E8;
 
 }
 #title {
@@ -32,13 +32,16 @@ html {
   display:inline;
 
 }
-
+ .navnames{
+   color:black;
+ }
 #menu{
   /* display: inline-block;  */
   text-align: center;
   /* left: 20px;
   top: 20px;
   float: right; */
+  color: black;
   width: auto;
   margin:0;
   padding:0;
@@ -52,6 +55,7 @@ html {
 
 #nav {
   list-style-type: none;
+
   /*border: 1px solid fuchsia;*/
   /* text-align: center; */
 
@@ -66,7 +70,7 @@ html {
 }
 
 #nav li:hover{
-  background-color: LightSkyBlue;
+  background-color: #FFFFFF;
 }
 .main{
   text-align: center
