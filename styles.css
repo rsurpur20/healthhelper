@@ -2,7 +2,7 @@
 /* http://learnlayout.com/ */
 
 html {
-  background-color: lavender;
+  background-color: #D9E5E8;
 
 }
 #title {
@@ -29,17 +29,19 @@ html {
 
   padding-right: 100px;
   padding-left:100px;
-  display: inline-block;
-  margin-bottom: 15px;
+  display:inline;
 
 }
-
+ .navnames{
+   color:black;
+ }
 #menu{
   /* display: inline-block;  */
   text-align: center;
   /* left: 20px;
   top: 20px;
   float: right; */
+  color: black;
   width: auto;
   margin:0;
   padding:0;
@@ -53,6 +55,7 @@ html {
 
 #nav {
   list-style-type: none;
+
   /*border: 1px solid fuchsia;*/
   /* text-align: center; */
 
@@ -67,7 +70,7 @@ html {
 }
 
 #nav li:hover{
-  background-color: LightSkyBlue;
+  background-color: #FFFFFF;
 }
 .main{
   text-align: center
@@ -110,9 +113,12 @@ html {
   width:1000px;
   /* display:inline-block; */
   align-content: center;
-  left: 50%;
-  transform: translateX(-50%);
-  }
+   /* margin-left: 300px;
+margin-right: 300px;
+margin-top: 20px; */
+left: 50%;
+transform:translate(-50%);
+}
 /*style for cpr*/
 #classbanner2 {
   color: darkred; /*rgb(198, 201, 255) ; you can also use RGB values*/
@@ -177,10 +183,12 @@ html {
 }
 #usesText, #bioText {
   font-size: 20px;
+      display: block;
+
 }
 #uses, #bio {
   font-size: 24px;
-
+  color: lightskyblue;
 }
 
 #pictureCardiac{
@@ -193,31 +201,68 @@ html {
     margin-top: 30px;
   }
 #top, .banner{
-  color: LightSkyBlue;
-}
-#cardiacText{
   color: black;
+
 }
 
-#list{
+#bruisesimg{
+  width: 300px;
+
+}
+/* /////////////////////////// */
+body {
+    font-family: ProximaNovaReg, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h3 {
+    color: #bb3794;
+
+    /* margin: auto; */
+}
+a {
+    /* text-decoration: none; */
+}
+
+a, a:visited {
+    color: rgb(84, 180, 210);
+}
+
+a:hover {
+    color: rgb(51,159,192);
+}
+
+th {
+    text-align: center;
+}
+
+td, th, tr {
+  /* padding-right: 190px;
+  text-align: center; */
+}
+.tabletitle {
+  padding-right: 190px;
+  text-align: center;
+}
+
+table{
+  /* text-align: center;
+  display: block; */
+  margin: auto;
+}
+/* #docs-template{
+  /* display: block;
+  margin: auto;
+} */
+.centered{
+  /* display:block; */
+  /* margin:auto; */
+  text-align: center;
   color: black;
 }
-html {
-  background-color: lavender;
-}
-/* #header {
-  background-color: aliceblue;
-} */
-#stdInformation, #HIVAIDS, #stdMoreInfo, #menstruationInformation, #menstruation, #MenstruationMoreInfo, #concussionInformation, #concussionTreatment,
-#concussionMoreInfo{
-  color: LightSkyBlue;
-}
-#pictureSTD, #pictureMenstruation, #pictureConcussion {
+.imagecenter {
   display: block;
   margin: auto;
 }
-<<<<<<< HEAD
-=======
 
 #digestiveimg{
   display: inherit;
@@ -300,4 +345,3 @@ html {
 padding-left: 95px;
 padding-right: 95px;
 }
->>>>>>> 44d5d02ac00fbb6657b7a2f0617eba72df40c6b7
