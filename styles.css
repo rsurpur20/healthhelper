@@ -253,6 +253,20 @@ table{
   display: block;
   margin: auto;
 }
+
+#digestiveimg{
+  display: inherit;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.digestivetext{
+  text-align: center;
+  color: black;
+  display:block;
+  /* float:left; */
+}
 /*  ////////////////////*/
 .dropbtn {
   background-color: #348edb00;
