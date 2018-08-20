@@ -2,7 +2,7 @@
 /* http://learnlayout.com/ */
 
 html {
-  background-color: lavender;
+  background-color: #E4B1CA;
 
 }
 #title {
@@ -179,6 +179,7 @@ transform:translate(-50%);
 }
 #usesText, #bioText {
   font-size: 20px;
+      display: block;
 
 }
 #uses, #bio {
