@@ -7,24 +7,33 @@
   </head>
   <body>
 
-<!--HEADER //////////////////////////////////////////////////////  -->
-  <div id= "header">
-<center>
-  <img id = "logo" src="healthhelperlogo.png" alt="Health Helper" hspace="50">
-</center>
-    <div id="menu">
-      <ul id="nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="illnessinformation.html">Illness Information</a></li>
-        <li><a href="resources.html">Resources</a></li>
-        <li><a href="generalhealth.html">General Health</a></li>
-        <li><a href="finddoctor.html">Find a Doctor</a></li>
-        <!-- <a href=""><li>Gallery</li></a>
-        <a href=""><li>Contact</li></a> -->
-      </ul>
-    </div>
-  </div>
-<!--HEADER //////////////////////////////////////////////////////  -->
+      <!--HEADER //////////////////////////////////////////////////////  -->
+        <div id= "header">
+      <center>
+        <img id = "logo" src="healthhelperlogo.png" alt="Health Helper" hspace="50">
+      </center>
+          <div id="menu">
+            <ul id="nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="illnessinformation.html">Illness Information</a></li>
+              <!-- <li><a href="resources.html">Resources</a></li> -->
+              <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">Resources</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="finddoctor.html">Find a Doctor</a>
+                  <a href="resources.html">Find a Hospital</a>
+
+                </div>
+              </div>
+              <li><a href="generalhealth.html">General Health</a></li>
+              <!--
+              <li><a href="">Find a Doctor</a></li> -->
+              <!-- <a href=""><li>Gallery</li></a>
+              <a href=""><li>Contact</li></a> -->
+            </ul>
+          </div>
+        </div>
+      <!--HEADER //////////////////////////////////////////////////////  -->
 <div class="main">
   <!-- Content on page ---->
   <h1 id= "top"> Welcome to Health Helper</h1>
